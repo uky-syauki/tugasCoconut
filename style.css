@@ -1,0 +1,175 @@
+:root{
+    --blue-bg:#86E5FF;
+    --blue-tua:#0081C9;
+    --kuning:#FFC93C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(25,25,25);
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    height: 40px;
+    margin-right: 40px;
+}
+
+nav ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 1.8%;
+}
+
+nav ul li {
+    align-content: center;
+    text-align: center;
+    margin-right: 2%;
+    margin-top: 68px;
+    background-color: rgb(255,255,0);
+    width: 150px;
+    height: 29px;
+    padding-top: 10px;
+    border-radius: 6px;
+    box-shadow: 1.4px 2.4px 5px -3px black;
+}
+
+nav ul li a{
+    line-height: 19px;
+    color: rgb(0,0,120);
+    text-shadow: 1px 1px 2px gray;
+}
+
+
+nav ul li a:hover {
+    color: green;
+}
+
+.activ{
+    background-color: rgb(0,0,120);
+    color: rgb(255,255,0);
+}
+.activ:hover{
+    color: red;
+}
+
+aside {
+    margin-top: 10px;
+    margin-left: 90px;
+    float: left;
+    font-size: 21px;
+}
+
+aside h1 {
+    color: yellow;
+    text-shadow: 2px 1px 2px gray;
+    margin-bottom: -11px;
+}
+
+aside sup {
+    color: yellow;
+    text-shadow: 2px 1px 2px gray;
+    margin-top: -100px;
+    margin-left: 40px;
+    font-family: "Sofia", sans-serif;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    font-family: "time new roman";
+}
+
+section {
+    margin: 45px 20px;
+}
+
+section h1 {
+    margin-top: 10px;
+}
+
+.judul {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 30px;
+    font-family: 'Arial';
+}
+
+table {
+    justify-content: center;
+    text-align: center;
+}
+table tr td {
+    display:inline-block
+}
+
+
+
+img {
+    box-shadow: 1px 1px 3px grey;
+    align-items: center;
+    width: 190px;
+    height: 260px;
+    border-radius: 6px;
+}
+
+img:hover{
+    box-shadow: 2px 3px 8px grey;
+}
+
+.boximg {
+    margin: 10px;
+    margin-top: 45px;
+    box-shadow: 1px 1px 10px rgb(25,25,25);
+    padding: 10px;
+    border-radius: 10px 10px ;
+    background-color: #fff;
+}
+
+.boximg:hover{
+    box-shadow: 1px 1px 3px black;
+}
+.boximg h3{
+    margin-top: 10px;
+    font-size: 13px;
+}
+.boximg a{
+    text-decoration: none;
+    text-shadow: 0px 1px 1px black;
+}
+.desk{
+    margin-top: 100px;
+}
+.bab{
+    text-align: left;
+    margin-left: 20%;
+}
+.tampil{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 30%;
+    height: 140%;
+}
+footer {
+    color: rgb(255,255,0);
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: -20px;
+    width: 1118px;
+    height: 60vh;
+    background: red;
+    border-radius: 10px 10px 1px 1px;
+    background-color: rgb(0,0,35);
+    margin-bottom: -45px;
+}
+footer aside h1{
+    text-align: center;
+    padding-left: 12%;
+}
