@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+
+<body>
+    <audio id="suara">
+        <source src="lagu/horse.ogg" type="audio/ogg">
+        <source src="lagu/horse.mp3" type="audio/mpeg">
+    </audio>
+    <!-- <audio src="lagu/horse.mp3" autoplay></audio> -->
+    <aside>
+        <h1>COCONUT</h1>
+        <sup>Big Coriocity!</sup>
+    </aside>
+    <nav>
+        <ul>
+            <li class="activ">
+                <a href="index.html" class="activ">
+                    <h4>Beranda</h4>
+                </a>
+            </li>
+            <li>
+                <a href="perpustakaan.html">
+                    <h4>Perpustakaan</h4>
+                </a>
+            </li>
+            <li>
+                <a href="about.html">
+                    <h4>Tentang</h4>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <table>
+            <tr>
+
+        <td>
+            <div class="boximg recomendasi">
+                <a href="freeBook/AlgorithmsBook.html">
+                    <img src="https://books.goalkicker.com/AlgorithmsBook/AlgorithmsGrow.png" alt="AlgorithmsBook"></a>
+                    <br>
+                    <h3 class="tombol" onclick="putar()">AlgorithmsBook</h3>
+            </div>
+        </td>
+        
+            </tr>
+        </table>
+        <footer>
+            <aside>
+                <h1 onclick="putar()">COCONUT</h1>
+                <sup>Big Coriocity!</sup>
+            </aside>
+        </footer>
+    </section>
+    <script>
+        function putar(){
+            suara = document.getElementById("suara")
+            suara.play();
+            setInterval(function () {window.open("freeBook/AlgorithmsBook.html");}, 2000);
+        }
+    </script>
+</body>
+
+</html>
