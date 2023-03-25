@@ -11,24 +11,20 @@
 </head>
 
 <body>
-    <audio id="suara">
-        <source src="lagu/horse.ogg" type="audio/ogg">
-        <source src="lagu/horse.mp3" type="audio/mpeg">
-    </audio>
     <aside>
         <h1>COCONUT</h1>
         <sup>Big Coriocity!</sup>
     </aside>
     <nav>
         <ul>
-            <li class="activ">
-                <a href="perpustakaan.html" class="activ">
-                    <h4>Perpustakaan</h4>
-                </a>
-            </li>
             <li>
                 <a href="index.html">
                     <h4>Beranda</h4>
+                </a>
+            </li>
+            <li class="activ">
+                <a href="perpustakaan.html" class="activ">
+                    <h4>Perpustakaan</h4>
                 </a>
             </li>
             <li>
@@ -43,7 +39,7 @@
             <tr>
                 
         <td>
-            <div class="boximg">
+            <div class="boximg boximg2">
                 <a href="freeBook/DotNETFrameworkBook.html">
                     <img src="https://books.goalkicker.com/DotNETFrameworkBook/DotNETFrameworkGrow.png" alt="DotNETFrameworkBook"></a>
                     <br>
@@ -54,7 +50,7 @@
         </td>
         
         <td>
-            <div class="boximg">
+            <div class="boximg boxing2">
                 <a href="freeBook/AlgorithmsBook.html">
                     <img src="https://books.goalkicker.com/AlgorithmsBook/AlgorithmsGrow.png" alt="AlgorithmsBook"></a>
                     <br>
@@ -574,18 +570,22 @@
         </table>
         <footer>
             <aside>
-                <h1>COCONUT</h1>
+                <h1 onclick="putar()">COCONUT</h1>
                 <sup>Big Coriocity!</sup>
             </aside>
+            <div class="contentFooter">
+
+                <h3 id="jl">Rekomendasi:</h3>
+                <ul class="rekomendasi">
+                    <li><a href="freeBook/AlgorithmsBook.html">AlgorithmsBook</a></li>
+                    <li><a href="freeBook/GitBook.html">GitBook</a></li>
+                    <li><a href="freeBook/LinuxBook.html">LinuxBook</a></li>
+                    <li><a href="freeBook/PythonBook.html">PythonBook</a></li>
+                </ul>
+                <h4 id="jl" class="made"><u>Made By @Uky Coconut 012</u></h4>
+            </div>
         </footer>
     </section>
-    <script>
-        function putar(){
-            suara = document.getElementById("suara")
-            suara.play();
-            setInterval(function () {window.open("freeBook/AlgorithmsBook.html");}, 2000);
-        }
-    </script>
 </body>
 
 </html>

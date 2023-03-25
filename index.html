@@ -11,11 +11,6 @@
 </head>
 
 <body>
-    <audio id="suara">
-        <source src="lagu/horse.ogg" type="audio/ogg">
-        <source src="lagu/horse.mp3" type="audio/mpeg">
-    </audio>
-    <!-- <audio src="lagu/horse.mp3" autoplay></audio> -->
     <aside>
         <h1>COCONUT</h1>
         <sup>Big Coriocity!</sup>
@@ -40,34 +35,28 @@
         </ul>
     </nav>
     <section>
-        <table>
-            <tr>
-
-        <td>
-            <div class="boximg recomendasi">
-                <a href="freeBook/AlgorithmsBook.html">
-                    <img src="https://books.goalkicker.com/AlgorithmsBook/AlgorithmsGrow.png" alt="AlgorithmsBook"></a>
-                    <br>
-                    <h3 class="tombol" onclick="putar()">AlgorithmsBook</h3>
-            </div>
-        </td>
-        
-            </tr>
-        </table>
+        <div class="home">
+            <h5>Menjadi seorang ahli tidak akan terjadi dalam semalam, tetapi dengan sedikit kesabaran anda akan mencapainya, dan di sini anda akan menemukan jalannya.</h5>
+            <h5>Ilmu Pengetahuan adalah harta karun berharga yang akan selalu mengikuti pemiliknya kemanapun perginya.</h5>
+        </div>
         <footer>
             <aside>
                 <h1 onclick="putar()">COCONUT</h1>
                 <sup>Big Coriocity!</sup>
             </aside>
+            <div class="contentFooter">
+
+                <h3 id="jl">Rekomendasi:</h3>
+                <ul class="rekomendasi">
+                    <li><a href="freeBook/AlgorithmsBook.html">AlgorithmsBook</a></li>
+                    <li><a href="freeBook/GitBook.html">GitBook</a></li>
+                    <li><a href="freeBook/LinuxBook.html">LinuxBook</a></li>
+                    <li><a href="freeBook/PythonBook.html">PythonBook</a></li>
+                </ul>
+                <h4 id="jl" class="made"><u>Made By @Uky Coconut 012</u></h4>
+            </div>
         </footer>
     </section>
-    <script>
-        function putar(){
-            suara = document.getElementById("suara")
-            suara.play();
-            setInterval(function () {window.open("freeBook/AlgorithmsBook.html");}, 2000);
-        }
-    </script>
 </body>
 
 </html>
